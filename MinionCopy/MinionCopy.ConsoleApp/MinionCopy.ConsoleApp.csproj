@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Ivan Dmitriev</Authors>
+    <Company>Ivan Dmitriev</Company>
+    <Copyright>Ivan Dmitriev</Copyright>
+    <AssemblyName>mcopy</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MinionCopy.ConsoleToolAdapter\MinionCopy.ConsoleToolAdapter.csproj" />
+  </ItemGroup>
+
+</Project>
